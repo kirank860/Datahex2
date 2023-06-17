@@ -1,0 +1,156 @@
+.methotitle h1{
+    text-align:right;
+    margin-left: 50px;
+    padding-bottom: 20px;
+    color: #369C8F;
+
+}
+.methoimg1 img{
+    width: 80%;
+    margin-left: 50px;
+}
+.methoimg2 img{
+    width: 80%;
+    margin-left: 80px;
+}
+.ourv{
+    margin-left: 110px;
+}
+.ourm{
+    margin-left: 200px;
+}
+.ourpara p{
+    text-align: left;
+    font-weight: 500;
+     width: 450px;
+     margin-left: 50px;
+}
+.ourmpara p{
+    text-align: right;
+    font-weight: 500;
+    width: 450px;
+    margin-left: 70px;
+}
+.scrollsubs{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.line{
+    width: 99%;
+  margin-top: 100px;
+}
+.text{
+    width: 500px;
+     margin-left: 400px;
+    margin-right: 500px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.text input{
+    margin-right: 200px;
+    border: none;
+}
+.form-side{
+    width: 700px;
+   align-items: center;
+   justify-content: center;
+   transform: translate(35%, -50%);
+   margin-top: 150px;
+}
+.form-side input{
+    margin-top: 80px;
+    left: 40px;
+    border: none;
+    margin-right: 400px
+}
+.form-side input:focus {
+    outline: none;
+  }
+ .second-hr{
+    width: 600px;
+ }
+ .second-hr:hover{
+    border-color: blue;
+ }
+ .second-hr:focus{
+    background-color: blue;
+ }
+ .rightchev{
+    margin-left: 550px;
+    color: black;
+    cursor: pointer;
+ }
+/* small-devices------- */
+@media  screen and (max-width:1350px){
+    .container{
+        margin-top: 100px;
+        margin-right: 150px;
+    }
+    .methotitle h1{
+        font-size: 25px;
+        margin-left: -13px ;
+        text-align: left;
+        padding-bottom: 20px;
+        color: #369C8F;
+    }
+    .methoimg1 img{
+        width: 60%;
+        margin-left: -40px;
+        
+    }
+    .methoimg2 img{
+        width: 60%;
+        margin-left: -50px;
+    }
+    .ourv{
+        margin-left: 0px;
+    }
+    .ourm{
+        margin-left: 0px;
+    }
+    .ourpara p{
+        text-align: left;
+        font-weight: 500;
+         width: 350px;
+         margin-left: 0px;
+         overflow:hidden;
+    }
+    .ourmpara p{
+        text-align: left;
+        font-weight: 600;
+        width: 350px;
+        margin-left: -10px;
+    }
+    .scrollsubs p{
+        font-size: 13px;
+    }
+    .scrollsubs{
+        text-align: center;
+        margin-top: 50px;
+        margin-left: -160px;
+    }
+    .line{
+        width: 440px;
+        margin-left: -20px;
+     }
+     .form-side{
+        width: 400px;
+         position: relative;
+         right: 140px;
+         overflow-x: none;
+        } 
+        .form-side h2{
+            font-size: 17px;
+            width: 300px;
+            text-align: center;
+        }
+        .form-side hr{
+            width: 400px;
+        }
+        .rightchev{
+            margin-left: 350px;
+            color: black;
+            cursor: pointer;
+         }
+}

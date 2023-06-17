@@ -1,0 +1,92 @@
+.container{
+    overflow: hidden;
+margin-top: 250px;
+    margin-left: 100px !important;
+}
+.logo1{
+    margin-top: 100px;
+    width: 80%;
+    object-fit: contain;
+    animation: move 3s infinite ease alternate;
+  
+}
+@keyframes move{
+    from{
+        transform: translateY(-24px);
+        transform: translateX(-24px);
+    
+    }
+    to{
+        transform: translateY(0px) scale(2.04);
+        transform: translateX(0px) scale(1.03);
+      
+    }
+    
+}
+.logo2-div{
+    margin-top: 190px;
+    margin-left: 50px;
+}
+.logo2-div img{
+    width: 80%;
+    margin-left: 100px;
+}
+.titleone{
+margin-top: 30px;
+}
+.titleone h1{
+    text-align: right;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.ss-icons{
+    margin-left: 150px;
+   
+}
+.ss-icons a{
+    padding-left: 10px;
+    color: gray;
+}
+.scrollone{
+    margin-top: 110px;
+    margin-left: 250px;
+}
+
+/* for small devices----------- */
+@media screen and (max-width:1330px){
+    .logo1{
+        width: 70%;
+        margin-top: 50px;
+    }
+    .container{
+        overflow: hidden !important;
+    }
+    .ss-icons{
+        margin-left: 40px;
+       
+    }
+    .logo2-div img{
+        width: 60%;
+     position: relative;
+     top: -140px;
+     left: -150px;
+    
+    }
+    .titleone{
+        margin-top: -110px;
+        margin-right: 60px;
+        overflow: hidden;
+        max-height: 300px;
+        text-align: center;
+        }
+        .titleone h1{
+            text-align: center;
+            font-size: 30px;
+            margin-right: 140px;
+        }
+        .scrollone{
+            margin-top: 20px;
+            margin-left: 70px;
+        }
+}
+    

@@ -1,0 +1,197 @@
+/* 
+.carousel-item img {
+    height: auto;
+    max-height: 400px;
+    width: 100%;
+  }
+.third-title h1{
+    margin-top: 100px;
+    color: #369C8F;
+    font-size: 60px;
+    margin-left: 110px;
+}
+.carousel-title{
+    padding-top: 20px;
+}
+.movingcard{
+    width: 600px;
+    height: 250px;
+}
+.row-four{
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.cmain{
+    width: 650px;
+    height: 100px;
+    margin-bottom: 300px;
+}
+.down-key-3{
+    margin-left: 150px;
+    
+}
+.our-services h3{
+    margin-right: 130px;
+    margin-top: 10px;
+    color: #369C8F;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#card-p{
+    color:#fff;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.services h3{
+    color: #369C8F;
+}
+.facode{
+    font-size: 30px;
+    color: aqua;
+}
+@media only screen and (max-width:1350px){
+    .import{
+        background-color: aqua;
+    }
+    .carousel-item img {
+        height: auto;
+        max-height: 200px;
+        width: 200px;
+      }
+    .third-title h1{
+        color: #369C8F;
+        width:180px;
+        font-size: 29px;
+        margin-left: 10px;
+    }
+    svg{
+        width: 50px;
+        margin-right:350px;
+    }
+    .carousel-item{
+        height:200px;
+        margin: 2rem;
+    }
+    .cmain{
+        width: 380px;
+        margin-bottom: 180px;
+        margin-right: 150px;
+    }
+    .our-services h3{
+        margin-left: 130px;
+        margin-top: 30px;
+        color: #369C8F;
+        font-size: 18px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    #card-p{
+        display: block;
+        color: #fff;
+        font-size: 30px;
+        font-weight: 400;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .sectionThree{
+        margin-top: -50px;
+    }
+    .down-key-3{
+        margin-left: 200px;
+    }
+    .metho{
+        margin-left: 100px;
+    }
+}
+/* mobile devices */
+/* @media only screen and (max-width:450px){
+    .third-title h1{
+        color: #369C8F;
+        width:200px;
+        font-size: 29px;
+        margin-left: 110px;
+    }
+    svg{
+        width: 50px;
+        margin-left: 150px;
+        padding-bottom: 20px;
+    }
+    .carousel-item{
+        height:200px;
+        margin: 2rem;
+    }
+    .cmain{
+        width: 380px;
+        margin-bottom: 180px;
+        margin-right: 150px;
+    }
+    .our-services h3{
+        text-align: center;
+        margin-left: 160px;
+        margin-top: 0px;
+        color: #369C8F;
+        font-size: 18px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    #card-p{
+        display: block;
+        color: #fff;
+        font-size: 30px;
+        font-weight: 400;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .sectionThree{
+        margin-top: -50px;
+    }
+    .down-key-3{
+        margin-left: 50px;
+    }
+    .metho{
+        margin-left: 100px;
+    }
+   
+} */ 
+.portfollio{
+    margin-left: 200px;
+}
+.portfollio h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-weight: 1200;
+    color: #369C8F;
+    padding-bottom: 30px;
+
+}
+#port{
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+.caro{
+    width: 450px;
+
+}
+.domos{
+    margin-left: 170px;
+    margin-top: 15px;
+}
+.domos h5{
+    font-weight: bolder;
+}
+.caro h3{
+    color: rgb(0, 12, 11,0.90);
+    font-weight: 700;
+    margin-top: 40px;
+}
+@media screen and (max-width:1350px){
+    .portfollio h1{
+        margin-right: 300px;
+        font-size: 30px;
+        margin-top: -40px;
+        text-align: center;
+    }
+    .caro{
+        width: 350px;
+        margin-left: 80px;
+    
+    }
+}
